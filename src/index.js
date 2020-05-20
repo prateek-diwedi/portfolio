@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import HomePageText from './components/HomePageText';
+import Navbar from './components/NavBar'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar />
     <App />
-    <HomePageText/>
   </React.StrictMode>,
   document.getElementById('root')
 );
