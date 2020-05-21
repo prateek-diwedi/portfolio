@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id='homeAnchor'>
      <h1>
     Hello, I'm Prateek Diwedi.
       <p>
