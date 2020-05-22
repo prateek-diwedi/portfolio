@@ -1,22 +1,31 @@
 import React from 'react'
-import './NavBar.scss';
+import './navbar.scss';
 
 function NavBar() {
   return (
     <div className='navBarHide'>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <a className="nav-item nav-link active" href="#homeAnchor">Home <span className="sr-only">(current)</span></a>
-            <a className="nav-item nav-link" href="#aboutMe">About</a>
-            <a className="nav-item nav-link" href="#portfolio">Portfolio</a>
-            <a className="nav-item nav-link" href="#">Blog</a>
-            <a className="nav-item nav-link" href="#">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarTextId">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a className="nav-item nav-link" href="#homeAnchor">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a className="nav-item nav-link" href="#aboutMeAnchor">About</a>
+            </li>
+            <li class="nav-item active">
+              <a className="nav-item nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a className="nav-item nav-link" href="#blogAnchor">Blog</a>
+            </li>
+            <li class="nav-item active">
+              <a className="nav-item nav-link" href="#contactAnchor">Contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>

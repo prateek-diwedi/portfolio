@@ -5,6 +5,8 @@ import App from './App';
 import Navbar from './components/NavBar'
 import Portfolio from './components/Portfolio'
 import AboutComponent from "./components/AboutComponent"
+import Blog from './components/Blog'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import * as serviceWorker from './serviceWorker';
 
@@ -14,6 +16,8 @@ ReactDOM.render(
     <App />
     <AboutComponent />
     <Portfolio />
+    <Blog />
+    <Contact />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

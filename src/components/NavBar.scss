@@ -1,8 +1,7 @@
-.navBarHide {
-position: fixed;
-
+#navbarTextIda.current {
+background: blueviolet!important;
 }
 
-.bg-light {
-display: contents;
+#navbarTextId a:hover {
+  background: #7C7C85 !important;
 }

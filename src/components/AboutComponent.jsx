@@ -9,8 +9,8 @@ function AboutComponent() {
   }, [])
   return (
     <div>
-      <div data-aos="fade-right" className='AboutMe Animate'>
-        <h2 className='aboutMe' id='aboutMe' >About</h2>
+      <div data-aos="fade-right" className='AboutMeAnimate'>
+        <h2 className='aboutMe' id='aboutMeAnchor' >About</h2>
       </div>
       <div data-aos="flip-up" className="description">
         <h4>
