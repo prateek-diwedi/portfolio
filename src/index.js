@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Navbar from './components/NavBar'
+import Portfolio from './components/Portfolio'
 import AboutComponent from "./components/AboutComponent"
+import Footer from './components/Footer'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -11,6 +13,8 @@ ReactDOM.render(
     <Navbar />
     <App />
     <AboutComponent />
+    <Portfolio />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

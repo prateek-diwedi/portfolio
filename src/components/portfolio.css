@@ -1,0 +1,121 @@
+.box21 {
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10%;
+}
+
+#portfolio {
+  text-align: center;
+  padding-top: 10%;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#portfolio:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid red;
+}
+
+
+
+.box21 img {
+  width: 100%;
+  height: auto;
+}
+.box21 .box-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: 0 0;
+  color: rgb(10, 10, 10);
+  padding-top: 25px;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+  z-index: 1;
+}
+.box21:hover .box-content {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -moz-transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+  -o-transition-delay: 0.4s;
+  -ms-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.box21 .title {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(7, 7, 7);
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.box21 .description {
+  font-size: 14px;
+  font-style: italic;
+  padding: 0 10px;
+  margin: 15px 0;
+}
+.box21 .read-more {
+  display: block;
+  width: 120px;
+  background: #178993;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgb(8, 8, 8);
+  text-transform: capitalize;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 990px) {
+  .box21 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .box21 .box-content {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .box21 .title {
+    padding-bottom: 10px;
+  }
+}
+
+.portfolio {
+  padding-top: 5%;
+}
+
+.portfolioStart {
+  padding-top: 10%;
+}
+
+img:hover {
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+
+

@@ -1,0 +1,83 @@
+.containerGraph {
+  width: 50%;
+  background-color: #ddd;
+  padding-left: 0px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.info .skills{
+  background: linear-gradient(to right, #66ffff 0%, #0066ff 100%);
+}
+
+.info .html {
+  width: 90%;
+
+}
+.info .css {
+  width: 80%;
+  
+}
+.info .js {
+  width: 75%;
+ 
+}
+.info .react {
+  width: 75%;
+  
+}
+.info .node {
+  width: 70%;
+  
+}
+.info .ruby {
+  width: 58%;
+  
+}
+.info .ui {
+  width: 55%;
+  
+}
+
+.aboutMe {
+  text-align: center;
+  padding-top: 20px;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMe:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid red;
+}
+
+.skillContainer {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.ui {
+  padding-bottom: 20px;
+}
+
+.info p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.description {
+  padding: 30px;
+}

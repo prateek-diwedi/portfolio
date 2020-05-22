@@ -1,0 +1,48 @@
+footer {
+  padding: 5px;
+  background-color: #01060a;
+  color: #fff;
+  height: 120px;
+}
+
+.fa {
+font-size:50px;
+padding: 1%;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.icon i {
+  cursor: pointer;
+  color: white;
+  padding-right: 20px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p{
+  margin: 0px;
+  background-color: black;
+}
+
+.fa-linkedin:hover {
+  color: #017BB6;
+}
+
+.fa-facebook:hover {
+  color: #4167B2
+}
+
+.fa-github:hover {
+ color: #CBCCCD
+}
+
+.fa-instagram:hover {
+  color: #F24001;
+}

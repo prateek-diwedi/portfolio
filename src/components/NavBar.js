@@ -13,7 +13,7 @@ function NavBar() {
           <div className="navbar-nav">
             <a className="nav-item nav-link active" href="#homeAnchor">Home <span className="sr-only">(current)</span></a>
             <a className="nav-item nav-link" href="#aboutMe">About</a>
-            <a className="nav-item nav-link" href="#">Portfolio</a>
+            <a className="nav-item nav-link" href="#portfolio">Portfolio</a>
             <a className="nav-item nav-link" href="#">Blog</a>
             <a className="nav-item nav-link" href="#">Contact</a>
           </div>
