@@ -10,6 +10,7 @@ function Footer() {
           <a href = 'https://www.facebook.com/diwedi'><i class="fa fa-facebook fa-3x" ></i></a>
           <a href = 'https://github.com/prateek-diwedi'><i class="fa fa-github fa-3x" ></i></a>
           <a href = 'https://www.instagram.com/prateek1112/'><i class="fa fa-instagram fa-3x" ></i></a>
+          <a href = 'https://www.freecodecamp.org/prateek-diwedi'><i class="fa fa-free-code-camp fa-3x" ></i></a>
         </div>
         <div className="copyright">
         <p>© 2020 Prateek Diwedi</p>
