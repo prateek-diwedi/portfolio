@@ -37,7 +37,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: 0 0;
+  background: black;
+  opacity: .8;
   color: rgb(10, 10, 10);
   padding-top: 25px;
   -webkit-transform: scale(0);
@@ -66,6 +67,7 @@
 }
 .box21 .title {
   font-size: 21px;
+  color: white;
   font-weight: 700;
   text-transform: uppercase;
   border-bottom: 1px solid rgb(7, 7, 7);
@@ -75,6 +77,7 @@
 .box21 .description {
   font-size: 14px;
   font-style: italic;
+  color: white;
   padding: 0 10px;
   margin: 15px 0;
 }
@@ -114,7 +117,7 @@
 }
 
 .box21 img:hover {
-  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  webkit-filter: blur(4px) !important; /* Chrome, Safari, Opera */
   filter: blur(4px);
 }
 
