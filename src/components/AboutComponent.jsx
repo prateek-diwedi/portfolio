@@ -24,37 +24,37 @@ function AboutComponent() {
       <div className="info">
         <p>HTML</p>
         <div data-aos="fade-up-right" className="container containerGraph">
-          <div className="skills html">90%</div>
+          <div className="skills html">95%</div>
         </div>
 
         <p>CSS</p>
         <div data-aos="fade-up-left" className="container containerGraph">
-          <div className="skills css">80%</div>
+          <div className="skills css">90%</div>
         </div>
 
         <p>JavaScript</p>
         <div data-aos="fade-up-right" className="container containerGraph">
-          <div className="skills js">75%</div>
+          <div className="skills js">90%</div>
         </div>
 
         <p>React</p>
         <div data-aos="fade-up-left" className="container containerGraph">
-          <div className="skills react">75%</div>
+          <div className="skills react">80%</div>
         </div>
 
         <p>Node.js</p>
         <div data-aos="fade-up-right" className="container containerGraph">
-          <div className="skills node">70%</div>
+          <div className="skills node">75%</div>
         </div>
 
-        <p>Ruby/Rails</p>
+        <p>Ui Design</p>
         <div data-aos="fade-up-left" className="container containerGraph">
-          <div className="skills ruby">58%</div>
+          <div className="skills ui">60%</div>
         </div>
 
-        <p>UI Design</p>
+        <p>Data Structures</p>
         <div data-aos="fade-up-right" className="container containerGraph">
-          <div className="skills ui">55%</div>
+          <div className="skills ruby">55%</div>
         </div>
       </div>
     </div>

@@ -29,6 +29,10 @@ function App() {
       <div class="wrapper">
         <a id='landingPageButton' href="#aboutMeAnchor"><span>View My Work!</span></a>
       </div>
+
+      <div class="wrapper" style={{ paddingTop: '10rem'}}>
+        <a id='landingPageButton' href="https://resume.creddle.io/resume/fchebi1i69y"><span>Get My CV!</span></a>
+      </div>
     </div>
   );
 }
